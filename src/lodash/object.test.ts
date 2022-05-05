@@ -1,6 +1,6 @@
 import * as _ from 'lodash';
 
-test('lodash get', () => {
+test('get', () => {
   const a = {
     b: 1,
   };
