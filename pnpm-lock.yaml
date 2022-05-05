@@ -7,6 +7,8 @@ specifiers:
   '@babel/preset-react': ^7.14.5
   '@babel/preset-typescript': ^7.15.0
   '@babel/register': ^7.15.3
+  '@types/lodash': ^4.14.178
+  lodash: ^4.17.21
 
 dependencies:
   '@babel/cli': 7.16.0_@babel+core@7.16.0
@@ -15,6 +17,8 @@ dependencies:
   '@babel/preset-react': 7.16.0_@babel+core@7.16.0
   '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
   '@babel/register': 7.16.0_@babel+core@7.16.0
+  '@types/lodash': 4.14.178
+  lodash: 4.17.21
 
 packages:
 
@@ -1279,6 +1283,10 @@ packages:
     dev: false
     optional: true
 
+  /@types/lodash/4.14.178:
+    resolution: {integrity: sha512-0d5Wd09ItQWH1qFbEyQ7oTQ3GZrMfth5JkbN3EvTKLXcHLRDSXeLnlvlOn0wvxVIwK5o2M8JzP/OWz7T3NRsbw==}
+    dev: false
+
   /ansi-styles/3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
     engines: {node: '>=4'}
@@ -1691,6 +1699,10 @@ packages:
 
   /lodash.debounce/4.0.8:
     resolution: {integrity: sha1-gteb/zCmfEAF/9XiUVMArZyk168=}
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   /make-dir/2.1.0:
